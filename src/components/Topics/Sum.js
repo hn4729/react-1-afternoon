@@ -18,7 +18,7 @@ class Sum extends Component {
     this.setState({ number2: parseInt(value, 10) });
   }
   calcSum(num1, num2) {
-=    this.setState({ sum: num1 + num2 });
+    this.setState({ sum: num1 + num2 });
   }
   render() {
     return (
