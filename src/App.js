@@ -7,6 +7,7 @@ import FilterObject from "./components/Topics/FilterObject";
 import FilterString from "./components/Topics/FilterString";
 import Palindrome from "./components/Topics/Palindrome";
 import Sum from "./components/Topics/Sum";
+import DisemVoweler from "./components/Topics/DisemVoweler";
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <FilterString />
         <Palindrome />
         <Sum />
+        <DisemVoweler />
       </div>
     );
   }
