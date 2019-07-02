@@ -34,7 +34,9 @@ class Sum extends Component {
         />
         <button
           className="confirmationButton"
-          onClick={this.calcSum(this.state.number1, this.state.number2)}
+          onClick={() => {
+            this.calcSum(this.state.number1, this.state.number2);
+          }}
         >
           Add
         </button>
